@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Furniture</title>
+    <meta name="theme-color" content="#054C73"/>
+    <meta name="description" content="Furniture is Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.">
+    <meta name="author" content="Fiqisulaiman">
     <!-- Main -->
     <link rel="stylesheet" href="css/bulma.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="css/furniture.css">
     <!-- Icon Fonts -->
     <link rel="stylesheet" href="lib/icofont/icofont.min.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="lib/aos/aos.css">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar is-transparent">
+    <nav class="navbar is-transparent"
+      data-aos="fade-down">
       <div class="container">
         <div class="navbar-brand">
           <a href="#" class="navbar-item furniture_logo">
@@ -60,7 +66,8 @@
           <div class="container">
             <div class="columns is-flex is-justify-content-flex-end">
               <div class="column is-6">
-                <div class="box furniture_hero_content has-text-centered-mobile">
+                <div class="box furniture_hero_content has-text-centered-mobile"
+                data-aos="fade-up">
                   <span class="new_arrival">
                     New Arrival
                   </span>
@@ -84,23 +91,27 @@
       <!-- Features -->
       <section class="section furniture_features">
         <div class="container">
-          <div class="columns is-multiline is-centered has-text-centered">
-            <div class="column is-4">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="300">
               <div class="media is-inline-flex">
                 <div class="media-left">
-                  <img src="image/icon/Group (1).png" class="features_icon">
+                  <img src="image/icon/icon-1.png" class="features_icon truck">
                 </div>
-                <div class="media-content features_content">
+                <div class="media-content features_content truck_content">
                   <h4 class="features_title">Free Delivery</h4>
                   <p class="features_desc">Lorem ipsum dolor sit amet.</p>
                 </div>
               </div>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="400">
               <div class="media is-inline-flex">
                 <div class="media-left">
-                  <img src="image/icon/Group (2).png" class="features_icon">
+                  <img src="image/icon/icon-2.png" class="features_icon">
                 </div>
                 <div class="media-content features_content">
                   <h4 class="features_title">Support 24/7</h4>
@@ -109,10 +120,12 @@
               </div>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="500">
               <div class="media is-inline-flex">
                 <div class="media-left">
-                  <img src="image/icon/shield-1 1.png" class="features_icon">
+                  <img src="image/icon/icon-3.png" class="features_icon">
                 </div>
                 <div class="media-content features_content">
                   <h4 class="features_title">100% Authentic</h4>
@@ -124,42 +137,54 @@
         </div>
       </section>
 
+      <!-- Section -->
       <section class="section has-text-centered">
         <div class="container">
-          <h2 class="furniture_section_title">
-            Inspiration Collection
-          </h2>
-          <p class="furniture_section_sub">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <div
+            data-aos="fade-up">
+            <h2 class="furniture_section_title">
+              Inspiration Collection
+            </h2>
+            <p class="furniture_section_sub">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
 
           <div class="columns is-4 is-variable furniture_collections">
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="300">
               <figure class="image collections_img">
-                <img src="image/collections/Mask Group (2).png" alt="...">
+                <img src="image/collections/collections-1.png" alt="...">
               </figure>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="400">
               <figure class="image collections_img">
-                <img src="image/collections/Mask Group (1).png" alt="...">
+                <img src="image/collections/collections-2.png" alt="...">
               </figure>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="500">
               <figure class="image collections_img">
-                <img src="image/collections/Mask Group.png" alt="...">
+                <img src="image/collections/collections-3.png" alt="...">
               </figure>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Section -->
       <section class="hero furniture_hero_cta">
         <div class="hero-body">
           <div class="container">
             <div class="columns is-align-items-center">
-              <div class="column is-6">
+              <div class="column is-6"
+                data-aos="fade-up">
                 <h3 class="furniture_second_headline">
                   Beautify Your Space
                 </h3>
@@ -171,9 +196,11 @@
                   <span>Learn More</span>
                 </button>
               </div>
-              <div class="column is-6">
+              <div class="column is-6"
+                data-aos="fade-up"
+                data-aos-delay="300">
                 <div class="furniture_ctaimg">
-                  <img src="image/cta/Mask group.png">
+                  <img src="image/cta/cta-2.png">
                 </div>
               </div>
             </div>
@@ -181,37 +208,47 @@
         </div>
       </section>
 
+      <!-- Section -->
       <section class="section has-text-centered">
         <div class="container">
-          <h2 class="furniture_section_title">
-            Browse The Range
-          </h2>
-          <p class="furniture_section_sub">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <div
+            data-aos="fade-up">
+            <h2 class="furniture_section_title">
+              Browse The Range
+            </h2>
+            <p class="furniture_section_sub">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
 
           <div class="columns">
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="300">
               <figure class="image">
-                <img src="image/decor/image 106.png" class="furniture_decorimg" alt="...">
+                <img src="image/decor/decor-1.png" class="furniture_decorimg" alt="...">
               </figure>
               <p class="furniture_decor_title">
                 Dining
               </p>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="400">
               <figure class="image">
-                <img src="image/decor/image 100.png" class="furniture_decorimg" alt="...">
+                <img src="image/decor/decor-2.png" class="furniture_decorimg" alt="...">
               </figure>
               <p class="furniture_decor_title">
                 Living
               </p>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="500">
               <figure class="image">
-                <img src="image/decor/image 101.png" class="furniture_decorimg" alt="...">
+                <img src="image/decor/decor-3.png" class="furniture_decorimg" alt="...">
               </figure>
               <p class="furniture_decor_title">
                 Bedroom
@@ -221,19 +258,25 @@
         </div>
       </section>
       <hr>
+      <!-- Section -->
       <section class="section has-text-centered">
         <div class="container">
-          <h2 class="furniture_section_title">
-            How It Works
-          </h2>
-          <p class="furniture_section_sub">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <div
+            data-aos="fade">
+            <h2 class="furniture_section_title">
+              How It Works
+            </h2>
+            <p class="furniture_section_sub">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
 
           <div class="columns">
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="300">
               <figure class="image">
-                <img src="image/works/Purchase Securely.png" alt="...">
+                <img src="image/works/works-1.png" alt="...">
               </figure>
               <div class="furniture_works_content">
                 <p class="furniture_works_title">
@@ -245,9 +288,11 @@
               </div>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="400">
               <figure class="image">
-                <img src="image/works/Ships From Warehouse.png" alt="...">
+                <img src="image/works/works-2.png" alt="...">
               </figure>
               <div class="furniture_works_content">
                 <p class="furniture_works_title">
@@ -259,9 +304,11 @@
               </div>
             </div>
 
-            <div class="column is-4">
+            <div class="column is-4"
+              data-aos="fade-up"
+              data-aos-delay="500">
               <figure class="image">
-                <img src="image/works/Style Your Room.png" alt="...">
+                <img src="image/works/works-3.png" alt="...">
               </figure>
               <div class="furniture_works_content">
                 <p class="furniture_works_title">
@@ -275,11 +322,12 @@
           </div>
         </div>
       </section>
-
+      <!-- Section -->
       <section class="section furniture_subscribe has-text-centered">
         <div class="container">
           <div class="columns is-centered">
-            <div class="column is-6">
+            <div class="column is-6"
+              data-aos="fade-up">
               <h2 class="furniture_subscribesec_title">
                 Join Our Mailing List
               </h2>
@@ -302,11 +350,12 @@
           </div>
         </div>
       </section>
-
+      <!-- Footer -->
       <footer class="footer furniture_footer">
         <div class="container">
           <div class="columns">
-            <div class="column is-5">
+            <div class="column is-5"
+              data-aos="fade-up">
               <h3 class="furniture_footer_title">
                 Beauty Care
               </h3>
@@ -345,7 +394,8 @@
               </ul>
             </div>
 
-            <div class="column is-7">
+            <div class="column is-7"
+              data-aos="fade-up">
               <h3 class="furniture_footer_title">
                 Instagram Shop
               </h3>
@@ -380,6 +430,9 @@
         </div>
       </footer>
     </div>
+    <!-- AOS -->
+    <script type="text/javascript" src="lib/aos/aos.js"></script>
+    <!-- Main Js -->
     <script type="text/javascript" src="lib/main.js"></script>
   </body>
 </html>

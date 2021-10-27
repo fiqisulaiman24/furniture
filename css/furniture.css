@@ -52,6 +52,14 @@ a {
 	color: #054C73;
 }
 
+.navbar-item.furniture_logo:hover{
+	color: #054C73;
+}
+
+.navbar-item.furniture_logo:focus{
+	color: #054C73;
+}
+
 .navbar-burger:hover{
 	background:transparent;
 }
@@ -67,6 +75,12 @@ a {
 	font-size: 14px;
 	color: #333333;
     padding: 0.5rem 33px;
+}
+
+@media screen and (max-width: 1023px){
+	.navbar-end .navbar-link, .navbar-item:not(.navbar-item.furniture_logo){
+	    padding: 1rem 0.75rem;
+	}
 }
 
 /* Hero */
@@ -129,6 +143,16 @@ button.furniture_cta:focus{
 /* Features */
 .furniture_features{
 	background: #F2F5FF;
+}
+
+.truck{
+	position: relative;
+	right: 12px;
+}
+
+.truck_content{
+	position: relative;
+	right: 13px;
 }
 
 .features_icon{
