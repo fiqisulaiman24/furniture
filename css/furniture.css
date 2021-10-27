@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	-webkit-tap-highlight-color: transparent;
+	font-family: 'Montserrat';
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Section Title */
+.furniture_section_title{
+	font-weight: 700;
+	font-size: 32px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.furniture_section_sub{
+	font-weight: 400;
+	font-size: 20px;
+	color: #666666;
+	line-height: 39px;
+	padding-bottom: 50px;
+}
+
+/* Navbar */
+.navbar{
+	padding: 10px;
+}
+
+.navbar-menu{
+	box-shadow: none;
+}
+
+.navbar-item.furniture_logo{
+	font-weight: 700;
+	font-size: 28px;
+	color: #054C73;
+}
+
+.navbar-burger:hover{
+	background:transparent;
+}
+
+.navbar-burger span{
+	height: 2px;
+	width: 20px;
+	background-color: #054C73;
+}
+
+.navbar-end .navbar-link, .navbar-item:not(.navbar-item.furniture_logo){
+	font-weight: 600;
+	font-size: 14px;
+	color: #333333;
+    padding: 0.5rem 33px;
+}
+
+/* Hero */
+.furniture_hero{
+	background-image: url('../image/hero-alt.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.furniture_hero_content{
+	background: #DFE9F4;
+	box-shadow: none;
+	border-radius: 10px;
+	padding: 37px;
+}
+
+span.new_arrival{
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 3px;
+	color: #333333;
+}
+
+h1.furniture_headline{
+	font-weight: 700;
+	font-size: 52px;
+	color: #054C73;
+	line-height: 65px;
+	margin-top: 20px;
+}
+
+p.furniture_tagline{
+	font-weight: 500;
+	font-size: 16px;
+	color: #333333;
+	line-height: 39px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+button.furniture_cta{
+	background-color: #054C73;
+	border: 1px solid #054C73;
+	border-radius: 50px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 32px 72px;
+}
+
+button.furniture_cta:hover{
+	color: #fff;
+}
+
+button.furniture_cta:focus{
+	color: #fff;
+}
+
+/* Features */
+.furniture_features{
+	background: #F2F5FF;
+}
+
+.features_icon{
+	margin-right: 27px;
+}
+
+.features_content{
+	position: relative;
+	bottom: 6px;
+}
+
+.features_title{
+	text-align: left;
+	font-weight: 600;
+	font-size: 24px;
+	color: #333333;
+}
+
+.features_desc{
+	font-weight: 400;
+	font-style: 16px;
+	color: #333333;
+}
+
+/* Collections */
+.collections_img:hover{
+	transition: all .5s;
+    transform : translateY(-30px);
+    cursor: pointer;
+}
+
+/* CTA Section */
+.furniture_hero_cta{
+	background: #F2F5FF;
+}
+
+.furniture_second_headline{
+	font-weight: 700;
+	font-size: 32px;
+	color: #333333;
+}
+
+.furniture_second_tagline{
+	font-weight: 400;
+	font-size: 20px;
+	color: #666666;
+	line-height: 39px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.furniture_ctaimg{
+	position: relative;
+}
+
+.furniture_ctaimg img:nth-child(1){
+	width: 100%;
+	z-index: 2;
+	position: relative;
+}
+
+.furniture_ctaimg img:nth-child(2){
+	width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(25%);
+}
+
+/* Decor */
+.furniture_decorimg{
+	border-radius: 10px;
+}
+
+.furniture_decor_title{
+	font-weight: 600;
+	font-size: 24px;
+	color: #333333;
+	margin-top: 20px;
+}
+
+/* Works */
+.furniture_works_content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.furniture_works_title{
+	font-weight: 700;
+	font-size: 24px;
+	color: #333333;
+}
+
+.furniture_works_sub{
+	font-weight: 400;
+	font-size: 18px;
+	color: #666666;
+	margin-top: 10px;
+	line-height: 28px;
+}
+
+/* Subscribe */
+.furniture_subscribe{
+	background: #F2F5FF;
+}
+
+.furniture_subscribesec_title{
+	font-weight: 700;
+	font-size: 32px;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+.furniture_subscribesec_sub{
+	font-weight: 400;
+	font-size: 20px;
+	color: #666666;
+	line-height: 39px;
+}
+
+.furniture_subsform{
+	margin-top: 30px;
+}
+
+.input.furniture_subsmail{
+	font-family: 'Montserrat';
+	height: 70px;
+	border: 1px solid #054C73;
+	padding: 20px;
+}
+
+.button.furniture_subsbtn{
+	height: 70px;
+	width: 152px;
+	background-color: #054C73;
+	border: 1px solid #054C73;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+/* Footer */
+.furniture_footer{
+	background: #03344F;
+	padding:3rem 1.5rem 3rem;
+}
+
+.furniture_footer_title{
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.furniture_footer_sub{
+	font-weight: 400;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+
+.furniture_socmed{
+	display: inline-flex;
+}
+
+.furniture_socmed li{
+	width: 50px;
+}
+
+.furniture_socmed a{
+	color: #fff;
+	font-size: 24px;
+	line-height: 20px;
+}
